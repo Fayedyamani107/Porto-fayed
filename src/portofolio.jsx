@@ -555,11 +555,7 @@ const Portofolio = () => {
               Front-End Developer & UI/UX Enthusiast
             </h2>
             <div className="hero-contacts font-body-md text-on-surface-variant">
-              <div className="contact-item">
-                <span className="material-symbols-outlined text-secondary">phone</span>
-                {/* Ganti nomor telepon jika perlu */}
-                <span>+62859-5180-5635</span>
-              </div>
+              <div className="contact-item"></div>
               <div className="contact-item">
                 <span className="material-symbols-outlined text-secondary">mail</span>
                 {/* Membuka Gmail web secara otomatis */}
