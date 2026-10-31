@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { portfolioData } from '../data/portfolioData';
-import { Mail, Phone, Copy, Check, ArrowUpRight, Send, MapPin } from 'lucide-react';
+import { Mail, Copy, Check, ArrowUpRight, Send, MapPin } from 'lucide-react';
 
 export default function Contact() {
   const { profile } = portfolioData;
@@ -81,16 +81,6 @@ export default function Contact() {
                 </>
               )}
             </button>
-
-            <a
-              href={`https://wa.me/6285951805635`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-editorial bg-transparent border border-[#161D24]/20 text-[#161D24] hover:bg-[#161D24]/5 text-xs font-mono uppercase tracking-widest py-3 px-6"
-            >
-              <Phone size={14} className="text-[#243B53]" />
-              <span>WhatsApp: {profile.phone}</span>
-            </a>
           </div>
         </div>
 

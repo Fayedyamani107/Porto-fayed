@@ -11,7 +11,6 @@ export const portfolioData = {
     ],
     location: "Tangerang Selatan & Jakarta, Indonesia",
     email: "fayedyamani369@gmail.com",
-    phone: "+62 859-5180-5635",
     socials: [
       { name: "GitHub", url: "https://github.com", handle: "@fayedyamani" },
       { name: "LinkedIn", url: "https://linkedin.com", handle: "Fayed Yamani" },
