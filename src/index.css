@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/* Self-hosted portfolio typeface */
+@font-face {
+  font-family: 'Modern Sans Serif 7';
+  src: url('/fonts/modern-sans-serif-7.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Map Tailwind's default font utilities to the self-hosted typeface */
+@theme {
+  --font-sans: 'Modern Sans Serif 7', ui-sans-serif, system-ui, sans-serif;
+  --font-serif: 'Modern Sans Serif 7', ui-serif, Georgia, serif;
+  --font-mono: 'Modern Sans Serif 7', ui-monospace, monospace;
+}
+
 @layer base {
   :root {
     --bg-cream: #F2EFDE;
@@ -17,7 +33,7 @@
     scroll-behavior: smooth;
     background-color: #F2EFDE;
     color: #161D24;
-    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Modern Sans Serif 7', -apple-system, BlinkMacSystemFont, sans-serif;
   }
 
   body {
@@ -30,15 +46,15 @@
 
 /* Custom Typography Helpers */
 .font-serif-editorial {
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Modern Sans Serif 7', Georgia, serif;
 }
 
 .font-sans-body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Modern Sans Serif 7', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 .font-mono-meta {
-  font-family: 'JetBrains Mono', monospace, ui-monospace;
+  font-family: 'Modern Sans Serif 7', monospace, ui-monospace;
 }
 
 /* Editorial Links with Brick Red reveal animation */
